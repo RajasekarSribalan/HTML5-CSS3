@@ -30,7 +30,13 @@ ul {
   color: #ffffff;
 }
 
-
+.dark{
+  padding: 15PX;
+  background:#35424a;
+  color:#ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 /* Headers */
 
 header {
@@ -131,6 +137,18 @@ header a:hover {
 
 #boxes .box img{
   width: 90px;
+}
+
+/* Side bar */
+aside#sidebar{
+  float: right;
+  width: 30%;
+  margin-top: px;
+}
+
+article#main-col{
+  float: left;
+  width: 65%
 }
 
 footer {
